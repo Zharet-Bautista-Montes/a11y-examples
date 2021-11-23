@@ -35,3 +35,12 @@ header ul li a {
 header ul li a:hover {
   border-bottom: 1px solid #333;
 }
+
+.skipper {
+  overflow: hidden;
+  opacity: 0;
+}
+
+.skipper:focus {
+  opacity: 1;
+}
